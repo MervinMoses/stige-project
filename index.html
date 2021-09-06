@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel Landing Page</title>
+  </head>
+  <body>
+    <section class="showcase active ">
+      <header>
+        <h2 class="logo">Travel</h2>
+        <div class="toggle active "></div>
+      </header>
+      <video src="bgproj1.mp4" muted loop autoplay></video>
+      <div class="overlay"></div> 
+
+      <div class="text">
+      <h2>Never Stop</h2>
+      <h2>Exploring The World</h2>
+      <p>
+        Lorem20 ipsum dolor sit amet consectetur adipisicing elit. Beatae rem
+        maiores labore, blanditiis explicabo voluptatum dolores, consequuntur
+        excepturi ducimus magni distinctio error unde, sed consectetur soluta
+        animi dignissimos. Dolor, tempora.</p>
+        <a href="#">Explore</a>
+        </div>
+
+
+        <ul class="social">
+           <a href ="#"><img src="allinone.png" alt=""/></a>
+        </ul>
+
+    </section>
+<div class="menu">
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Destination</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+        
+</ul>
+</div>
+
+<script>
+    const menutoggle=document.querySelector('.toggle')
+   const showcase=document.querySelector('.showcase')
+
+    menutoggle.addEventListener('click', () => {
+        menutoggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+
+    })
+</script>
+</body>
+</html>
